@@ -1,0 +1,25 @@
+# Entorno virtual
+djangovenv/
+djangoenv/
+.env
+
+# Archivos de Python
+*.pyc
+__pycache__/
+
+# Archivos de VSCode
+.vscode/
+
+# Archivos de base de datos
+*.sqlite3
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación
+*.log
+
+# Archivos de migraciones opcionales (si lo querés limpio)
+**/migrations/*.py
+!**/migrations/__init__.py
