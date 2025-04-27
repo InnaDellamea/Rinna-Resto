@@ -1,0 +1,61 @@
+/* Estilo para el header tipo mosaico */
+.header-mosaico {
+    background: url('../images/mosaico.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+/* Overlay encima del mosaico */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* opcional, oscurece un poco */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Logo del restaurante */
+.logo {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Navegación principal */
+.nav-principal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-principal ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Footer igual que nav */
+.footer-nav {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
